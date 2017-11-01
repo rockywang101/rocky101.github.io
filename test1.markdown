@@ -12,4 +12,12 @@ if (isAwesome) {
 }
 ```
 
+### 修改前的 xml
+
+```xml
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="org.logicalcobwebs.proxool.ProxoolDriver"/>
+        <property name="url" value="proxool.eimi"/>
+    </bean>
+```
 
